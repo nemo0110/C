@@ -1,3 +1,4 @@
+/*  Read a set of n real numbers as input and print the maximum and minimum  */
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -18,7 +19,7 @@ int main() {
              max=k;
          }
     }
-    printf("max is %f/n",max);
-    printf("min is %f",min);
+    printf("The maximum number entered is %f/n",max);
+    printf("The minimum number entered is %f",min);
     return 0;
 }
